@@ -1,0 +1,101 @@
+
+.calc-container{
+  background-color: #64b255;
+  width:325px;
+  height:400px;
+  cursor: pointer;
+cursor: pointer;
+
+}
+
+.number-container{
+display:flex;
+flex-wrap: wrap;
+width:100%;
+justify-content:space-between;
+background-color:  #9ed096;
+border-style: none;
+
+
+}
+
+.number{
+  width: 25%;
+  height:80px;
+  background-color: #64b255;
+  color: white;
+  font-size: 30px;
+  border-style: none;
+}
+
+.equal{
+  width: 25%;
+  height:80px;
+  background-color: #64b255;
+  color: white;
+  font-size: 30px;
+  border-style: none;
+}
+
+#input-box{
+  background-color: #64b255;
+  border-style: none;
+  color: white;
+  font-size:2rem;
+  text-align:right;
+  width: calc(75% - 5px);
+
+
+
+
+}
+
+
+.divide, .multiply, .sub, .add{
+  background-color: #82c276;
+  color:#4d7342;
+  height:80px;
+  font-size: 2rem;
+  border-style: none;
+  width: calc(24% - 3px);
+
+}
+
+div > input{
+  margin: .5px;
+}
+
+#clear{
+  border-style: none;
+  background-color: #64b255;
+  color: white;
+  font-size: 2rem;
+  height:84px;
+  width:calc(26% - 3px);
+
+
+}
+
+#clear:hover{
+  background-color: #9ed096;
+}
+
+.equal:hover{
+  background-color: #82c276;
+}
+
+.divide:hover{
+  color: white;
+}
+
+.sub:hover{
+  color: white;
+}
+
+.add:hover{
+  color: white;
+}
+
+.multiply:hover{
+  color: white;
+}

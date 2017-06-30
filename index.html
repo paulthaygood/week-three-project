@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./main.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calc-container">
+      <form name= "calculator">
+      <div class="number-container">
+          <input type="button" id= "clear" value="C" onClick="runClear(this)">
+          <input type="text" value= "" id="input-box" disabled>
+
+          <input type="button" value= "7" class= 'number' onclick="run(this)" />
+          <input type="button" value= "8" class= 'number' onclick="run(this)" />
+          <input type="button" value= "9" class= 'number' onclick="run(this)" />
+          <input type="button" value= "/" class= 'divide' onclick="run(this)" />
+
+          <input type="button" value="4" class= 'number' onclick="run(this)" />
+          <input type="button" value="5" class= 'number' onclick="run(this)" />
+          <input type="button" value="6" class= 'number' onclick="run(this)" />
+          <input type="button" value="x" class = 'multiply' onclick="runMult(this)" />
+
+          <input type="button" value="1" class= 'number' onclick="run(this)" />
+          <input type="button" value="2" class= 'number' onclick="run(this)" />
+          <input type="button" value="3" class= 'number' onclick="run(this)" />
+          <input type="button" value="-" class= 'sub' onclick="run(this)" />
+
+          <input type="button" value="0" class= 'number' onclick="run(this)" />
+          <input type="button" value="." class= 'number' onclick="run(this)" />
+          <input type="button" value="=" class= 'equal' onclick="runEqual(this)" />
+          <input type="button" value="+" class= 'add' onclick="run(this)" />
+
+      </form>
+      </div>
+
+    <script type="text/javascript" src="main.js"></script>
+
+  </body>
+</html>
